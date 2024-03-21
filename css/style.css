@@ -1,0 +1,491 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+:root {
+    --font-93: 5.8rem;
+    --font-medium: 2.5rem;
+    --color-white: #ffff;
+    --color-gray: #ededed;
+    --color-blue: #34617a;
+    --color-crystal-blue: #5ca6ad;
+    --color-steel-teal: #6c8e87;
+    --color-pewter-blue: #84adbc;
+    --color-flash-white: #f2f2f2;
+    --color-ededed-white: #EDEDED;
+}
+
+/* SECCIÓN INICIO */
+
+.seccion_inicio {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.seccion_inicio {
+    margin: 2rem;
+}
+
+h1 {
+    color: var(--color-blue);
+    font-weight: 100;
+    font-size: 2.5rem;
+    flex-basis: 100%;
+    margin: auto;
+}
+
+p {
+    color: var(--color-blue);
+    margin-left: 1rem;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.cabecera {
+    margin: 1rem 0 0 1rem;
+    text-align: center;
+}
+
+.logo-cabecera {
+    width: 50%;
+}
+
+.navegacion, .navegacion-inferior {
+    text-align: center;
+    width: 100%;
+}
+
+.navegacion li {
+    border-bottom: solid var(--color-blue) 1px;
+}
+
+.navegacion ul,
+.seccion_inferior ul {
+    list-style-type: none;
+    width: 90%;
+    line-height: 2rem;
+}
+
+.navegacion li a,
+.seccion_inferior li a {
+    text-decoration: none;
+    color: var(--color-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    text-align: center;
+}
+
+.navegacion li a:hover,
+.seccion_inferior li a:hover {
+    color: var(--color-crystal-blue);
+
+}
+
+.logo-texto {
+    padding: 5rem;
+    text-align: center;
+}
+
+.logotipo-mediano {
+    width: 40%;
+}
+
+
+.imagen_superior_quirofano {
+    width: 100%;
+}
+
+/* SEGUNDA SECCIÓN */
+
+.nuestro-objetivo,
+.nuestro-equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-ededed-white);
+    padding-bottom: 1rem;
+}
+
+.nuestro-objetivo img,
+.nuestro-equipo img {
+    width: 100%;
+}
+
+h2 {
+    font-size: var(--font-medium);
+    font-weight: 100;
+    color: var(--color-white);
+    margin: 2rem;
+}
+
+.nuestro-objetivo>article>h2,
+.nuestro-equipo>article>h2,
+#contacto>article>h2 {
+    color: var(--color-blue);
+}
+
+.boton {
+
+    font-family: 'Gothic A1';
+    font-size: 1rem;
+    color: #34617a;
+    background-color: transparent;
+    padding: 22px 60px;
+    border: solid #34617a 1px;
+    box-shadow: none;
+    border-radius: 1px;
+    margin-left: 1rem;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+/* SECCIÓN TRATAMIENTOS */
+
+h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--color-blue);
+    letter-spacing: 0.25em;
+}
+
+.tratamientos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: auto;
+}
+
+.tratamientos>article {
+    text-align: center;
+}
+
+.articulo h2 {
+    padding: 10px;
+}
+
+.articulo-odontologia {
+    background-color: var(--color-blue);
+}
+
+.articulo-blanqueamiento {
+    background-color: var(--color-crystal-blue);
+}
+
+.articulo-restauradora {
+    background-color: var(--color-steel-teal);
+}
+
+.articulo-protesis {
+    background-color: var(--color-pewter-blue);
+}
+
+.iconos, .primer-bloque img {
+    margin: 2rem;
+
+}
+
+.colores {
+    padding: 2rem;
+}
+
+.tratamientos p {
+    color: var(--color-white);
+    word-spacing: 2px;
+    text-align: left;
+
+}
+
+/* SECCIÓN NUESTRO EQUIPO */
+
+.nuestro-equipo-texto {
+    padding: 1rem;
+}
+
+.contacto {
+    margin: 0 1rem;
+}
+
+/* SECCIÓN FORMULARIO */
+
+form {
+    margin: 1rem 1rem 0 0;
+}
+
+input,
+textarea {
+    padding: .5rem;
+    margin: 0.5rem 0 1rem 1rem;
+    width: 100%;
+    background-color: var(--color-gray);
+    border-style: none;
+    font-family: 'Gothic A1';
+    color: var(--color-blue);
+}
+
+input[type="submit"] {
+    width: 25%;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.seccion_inferior {
+    background-color: var(--color-blue);
+    text-align: center;
+    padding: 1rem;
+}
+
+.seccion_inferior li {
+    border-bottom: solid var(--color-white) 1px;
+}
+
+.seccion_inferior li a {
+    color: var(--color-white);
+}
+
+/* SECCIÓN FOOTER */
+
+footer>article>img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer p {
+    color: var(--color-white)
+}
+
+.navegacion-inferior {
+    margin: 1rem;
+}
+
+/* SECCIÓN MEDIA QUERY - DISPOSITIVOS MÓVILES */
+
+@media only screen and (min-width: 600px) {
+
+    
+
+    .cabecera {
+        margin: 1rem 0 0 1rem;
+        text-align: left;
+        width: 60%;
+        order: -1;
+    }
+
+    .cabecera img {
+        max-width: 35%;
+    }
+
+    h1 span {
+        display: block;
+    }
+    .seccion_inicio {
+        display: inline;
+    }
+
+    .logotipo-mediano {
+        width: 20%;
+        max-width: 20%;
+        flex: 1;
+    }
+
+    .logo-texto {
+        width: 50%;
+        margin: auto;
+    }
+
+    .seccion_inicio {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navegacion {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+    .navegacion li {
+        border-bottom: none;
+    }
+
+    .navegacion ul,
+    .seccion_inferior ul {
+        list-style-type: none;
+        width: 90%;
+        line-height: 2rem;
+        display: flex;
+    }
+
+    .navegacion li a,
+    .seccion_inferior li a {
+        text-decoration: none;
+        color: var(--color-blue);
+        text-transform: uppercase;
+        letter-spacing: 0.15rem;
+        word-spacing: 0.25rem;
+        padding: 1rem;
+    }
+
+    article>.nuestro-objetivo {
+        min-width: 60%;
+    }
+
+    .nuestro-objetivo,
+    .nuestro-equipo {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        background-color: var(--color-ededed-white);
+        padding-bottom: 1rem;
+    }
+
+
+    .nuestro-objetivo {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nuestro-objetivo-img {
+        flex-grow: 1;
+        flex-basis: 100%;
+        min-width: 60%;
+        max-width: 60%;
+        height: auto;
+    }
+    .nuestro-objetivo-texto {
+        flex-basis: 70%;
+    }
+
+    .primer-bloque, .segundo-bloque, .tercer-bloque, .cuarto-bloque {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconos, .primer-bloque img {
+        margin: 0;
+
+    }
+    .articulo-odontologia, .articulo-blanqueamiento,.articulo-protesis, .articulo-restauradora {
+        display: flex;
+        align-items: center;
+    }
+
+    .tratamientos>article {
+        padding: 0;
+        text-align: center;
+    }
+
+    .iconos, h3 {
+        padding: 2rem;
+    }
+
+    .nuestro-equipo {
+        margin: auto;
+        padding: 0;
+    }
+
+    .nuestro-equipo img {
+        flex-grow: 1;
+    flex-basis: 100%;
+    min-width: 60%;
+    margin: auto;
+    padding: 0;
+    }
+    .nuestro-equipo-texto {
+        flex-basis: 70%;
+    }
+
+    .contacto {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .icono-contacta {
+        max-width: 100%;
+        width: 30%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 2rem;
+    }
+
+    .formulario {
+        flex-basis: 50%;
+    }
+    
+    .form-group-1, .form-group-2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .nombre, .apellidos {
+        flex: 1 1 auto;
+        display: block;
+    }
+
+    .nombre, .email {
+        margin-right: 1rem;
+    }
+
+    input,
+    textarea {
+    padding: .5rem;
+    margin: 0.5rem 0 1rem 0rem;
+    }
+
+    .seccion_inferior {
+        display: block;
+    }
+
+    footer {
+        background-color: var(--color-blue);
+        text-align: center;
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 0.75rem;
+    }
+    .seccion_inferior li {
+        border-bottom: none;
+    }
+    
+    .seccion_inferior li a {
+        color: var(--color-white);
+    }
+
+    .navegacion-inferior, footer p {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

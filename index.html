@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 05 Flex</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;400;600&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- CABECERA NAVEGACION -->
+    <header class="seccion_inicio">
+        <section class="navegacion">
+            <nav>
+                <ul>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#tratamientos">Tratamientos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#FAQS">FAQS</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="cabecera">
+            <img src="img/logo_superior_azul.png" alt="logotipo-azul" class="logo-cabecera">
+            <h1><span>Centro de</span><span> Medicina Bucodental</span></h1>
+        </section>
+        
+    </header>
+    <main>
+        <section>
+            <!-- PRIMERA SECCION -->
+            <article>
+                <img src="img/imagen_superior_quirofano.jpg" alt="imagen_superior_quirofano"
+                    class="imagen_superior_quirofano">
+            </article>
+            <article class="logo-texto">
+                <img src="img/logo_mediano_azul.png" alt="logotipo-azul" class="logotipo-mediano">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam nihil dolore labore omnis
+                    cupiditate est consequuntur nesciunt. Libero fugit error quasi sapiente doloremque accusantium
+                    mollitia perspiciatis dolorem minima unde?</p>
+            </article>
+        </section>
+        <section class="nuestro-objetivo" id="nosotros">
+            <article class="nuestro-objetivo-img">
+                <img src="img/imagen_nuestro_objetivo.jpg" alt="imagen_nuestro_objetivo">
+            </article>
+            <article class="nuestro-objetivo-texto">
+                <h2>Nuestro objetivo</h2>
+                <p>Nuestro objetivo es la excelencia de todos nuestros tratamientos, para ello contamos con un equipo
+                    humano muy cualificado y de gran experiencia, y una clínica con la más avanzada tecnología. La
+                    clínica está dotada de todos los medios necesarios para procurar un ambiente familiar y agradable
+                    con la finalidad de que el paciente se sienta en todo momento cómodo y bien atendido. </p>
+                <button class="boton">Saber más</button>
+            </article>
+        </section>
+        <!-- SECCION TRATAMIENTOS -->
+        <section class="tratamientos" id="tratamientos">
+            <article id="tratamientos">
+                <h3>Tratamientos</h3>
+                <article class="primer-bloque">
+                <img src="img/icono_odontologia.png" alt="icono_odontologia" class="iconos">
+            
+            <article class="articulo-odontologia colores">
+                <h2>Odolontología estética</h2>
+                <p>Somos especialistas en los tratamientos de estética dental para solucionar los problemas relacionados
+                    con la salud bucal y la armonía estética de la boca en su totalidad. Contemplamos en todo momento
+                    los tratamientos con fines estéticos.</p>
+            </article>
+
+                </article>
+                <article class="segundo-bloque">
+            <article>
+                <img src="img/icono_blanqueamiento.png" alt="icono_blanqueamiento" class="iconos">
+            </article>
+            <article class="articulo-blanqueamiento colores">
+                <h2>Blanqueamiento</h2>
+                <p>Es un procedimiento simple, con apenas efectos secundarios, aunque existen contraindicaciones al
+                    blanqueamiento que deben ser valoradas previamente. </p>
+            </article>
+        </article>
+        <article class="tercer-bloque">
+            <article>
+                <img src="img/icono_restauradora.png" alt="icono_restauradora" class="iconos">
+            </article>
+            <article class="articulo-restauradora colores">
+                <h2>Odolontología restauradora</h2>
+                <p>Utiliza técnicas adhesivas con materiales de última generación, que nos permiten preservar al máximo
+                    el tejido dental remanente y devolver la función y la estética perdidas. </p>
+            </article>
+        </article>
+        <article class="cuarto-bloque">
+            <article>
+                <img src="img/icono_protesis.png" alt="icono_protesis" class="iconos">
+            </article>
+            <article class="articulo-protesis colores">
+                <h2>Prótesis y rehabilitación oral</h2>
+                <p>Utiliza técnicas adhesivas con materiales de última generación, que nos permiten preservar al máximo
+                    el tejido dental remanente y devolver la función y la estética perdidas.</p>
+            </article>
+        </article>
+        </section>
+        <!-- SECCION NUESTRO EQUIPO -->
+        <section class="nuestro-equipo">
+            <article>
+                <img src="img/imagen_equipo.jpg" alt="imagen_equipo">
+            </article>
+            <article class="nuestro-equipo-texto">
+                <h2>Nuestro equipo</h2>
+                <p>Nos sometemos a programas de formación continua para ofrecer un servicio al más alto nivel. Cada
+                    miembro de la clínica ha sido seleccionado por su preparación técnica y perfil personal y trabajan
+                    cada día para conseguir los mejores resultados. </p>
+                <button class="boton">Saber más</button>
+            </article>
+        <!-- SECCION CONTACTO -->
+        </section>
+        <section id="contacto" class="contacto">
+            <article>
+                <h2>Contacta con nosotros</h2>
+                <img src="img/icono_contacta.png" alt="icono_contacta" class="icono-contacta iconos">
+            </article>
+            <article class="formulario">
+                <form action="#">
+                    <div class="form-group-1">
+                    <input type="text" name="nombre" id="nombre" class= "nombre" placeholder="Nombre*">
+                    <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos*" class="apellidos">
+                </div>
+                <div class="form-group-2">
+                    <input type="email" name="email" id="email" placeholder="Mail*" class="email">
+                    <input type="tel" name="telefono" id="telefono" placeholder="Teléfono*">
+                </div>
+                    <input type="text" name="Asunto" id="Asunto" placeholder="Asunto*">
+                    <textarea name="" id="texto-blanco" cols="30" rows="10" placeholder="Texto*"></textarea>
+                    <input type="submit" value="Enviar" class="enviar">
+                </form>
+            </article>
+        </section>
+        <!-- FOOTER -->
+        <section class="seccion_inferior">
+            <footer>
+                <article>
+                    <img src="img/logo_footer.png" alt="">
+                </article>
+                <article>
+                    <nav class="navegacion-inferior">
+                        <ul>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#tratamientos">Tratamientos</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                            <li><a href="#FAQS">FAQS</a></li>
+                        </ul>
+                    </nav>
+                    <p>Aviso legal. Politica de privacidad. Uso de cookies.</p>
+                </article>
+            </footer>
+        </section>
+    </main>
+</body>
+
+</html>
